@@ -103,7 +103,7 @@ int tasToDemo(char *demo, char *tas, int levelNum) {
 }
 
 int usage(char *filename) {
-	fprintf(stderr, "Usage: %s <demo file> [--to/--from] <tas file>\n", filename);
+	fprintf(stderr, "Usage: %s <demo file> [--to/--from] <tas file> [level num]\n", filename);
 	return 1;
 }
 
